@@ -57,12 +57,12 @@ body{
 .ba-square:nth-child(n+57):nth-child(-n+64):nth-child(even){
 	background: #D4C4ED;
 }
-.ba-square:nth-child(-n+8):nth-child(odd):before,
-.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(even):before,
-.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(odd):before,
-.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(even):before,
-.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(odd):before,
-.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(even):before{
+.ba-square:nth-child(-n+8):nth-child(even):before,
+.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(odd):before,
+.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(even):before,
+.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(odd):before,
+.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(even):before,
+.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(odd):before{
 	content: '';
 	position: absolute;
 	width: 10%;
@@ -71,14 +71,14 @@ body{
 	-webkit-border-radius: 50%;
 			border-radius: 50%;
 }
-.ba-square:nth-child(-n+8):nth-child(odd):before,
-.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(even):before,
-.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(odd):before{
+.ba-square:nth-child(-n+8):nth-child(even):before,
+.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(odd):before,
+.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(even):before{
 	background: #160726;
 }
-.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(even):before,
-.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(odd):before,
-.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(even):before{
+.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(odd):before,
+.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(even):before,
+.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(odd):before{
 	background: #7D0F84;
 }
 .ba-square:nth-child(-n+8):nth-child(odd):hover:before,
