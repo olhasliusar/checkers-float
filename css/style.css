@@ -81,12 +81,12 @@ body{
 .ba-square:nth-child(n+57):nth-child(-n+64):nth-child(odd):before{
 	background: #7D0F84;
 }
-.ba-square:nth-child(-n+8):nth-child(odd):hover:before,
-.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(even):hover:before,
-.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(odd):hover:before,
-.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(even):hover:before,
-.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(odd):hover:before,
-.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(even):hover:before{
+.ba-square:nth-child(-n+8):nth-child(even):hover:before,
+.ba-square:nth-child(n+9):nth-child(-n+16):nth-child(odd):hover:before,
+.ba-square:nth-child(n+17):nth-child(-n+24):nth-child(even):hover:before,
+.ba-square:nth-child(n+41):nth-child(-n+48):nth-child(odd):hover:before,
+.ba-square:nth-child(n+49):nth-child(-n+56):nth-child(even):hover:before,
+.ba-square:nth-child(n+57):nth-child(-n+64):nth-child(odd):hover:before{
 	cursor: pointer;
 	margin-top: 0;
 	box-shadow: 0 5px 15px -2px rgba(0, 0, 0, .7);
